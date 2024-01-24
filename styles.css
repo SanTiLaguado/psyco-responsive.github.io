@@ -99,3 +99,75 @@ footer{
         margin-top: 10px;
     }
 }
+
+@media(max-width: 500px){
+
+    #container{
+        width: 100%;
+    }
+
+    #articles article{
+        width: 97%;
+        height: 150px;
+        float: left;
+        margin-left: 6px;
+        margin-bottom: 6px;
+    }
+
+    #articles2 article{
+        width: 94%;
+        height: 150px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 7px;
+        margin-bottom: 0px;
+
+    }
+
+    #imagenp img{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    #articles3 article{
+        width: 94%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 320px){
+
+    #container{
+        width: 100%;
+    }
+
+    #articles article{
+        width: 97%;
+        height: 150px;
+        float: left;
+        margin-left: 6px;
+        margin-bottom: 6px;
+    }
+
+    #articles2 article{
+        width: 94%;
+        height: 150px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 7px;
+        margin-bottom: 0px;
+
+    }
+
+    #imagenp img{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    #articles3 article{
+        width: 94%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
