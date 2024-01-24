@@ -55,6 +55,13 @@
     margin-top: 25px;
     margin-bottom: 26px;
 }
+h2 a{
+    color: black;
+}
+
+h2 a :visited{
+    color: darkslategrey;
+}
 
 #articles3 article{
     width: 20%;
@@ -75,6 +82,12 @@
 
 footer{
     margin: 15px;
+}
+
+footer a{
+    color: black;
+    border: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 @media(max-width: 768px){
